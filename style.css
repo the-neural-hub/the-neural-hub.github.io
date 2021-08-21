@@ -130,7 +130,7 @@ form input:not([type="submit"]), form textarea { padding: 20px 20px; background:
 .hero-slider .flex-control-paging li { display: inline-block; margin: 0 5px; }
 .hero-slider .flex-control-paging li a { display: block; width: 15px; height: 15px; border: 2px solid white; overflow: hidden; text-indent: -9999px; -webkit-transition: .3s ease; transition: .3s ease; cursor: pointer; }
 .hero-slider .flex-control-paging li a.flex-active { border: none; background-repeat: no-repeat; background-image: -webkit-linear-gradient(90deg, #cc7250, #f7d0c2); }
-@media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) { .hero-slider .flex-control-paging li a.flex-active { background-image: url("images/logo11.png"); background-size: 15px 15px; } }
+@media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) { .hero-slider .flex-control-paging li a.flex-active { background-image: -webkit-linear-gradient(90deg, #cc7250, #f7d0c2); background-size: 15px 15px; } }
 
 .fullwidth-block .container { padding: 50px 0; border-bottom: 1px solid #2c282c; }
 .fullwidth-block:last-child .container { border-bottom: none; }
@@ -139,7 +139,7 @@ form input:not([type="submit"]), form textarea { padding: 20px 20px; background:
 
 .button { padding: 10px 20px; margin-bottom: 30px; border: 2px solid #cc7250; position: relative; color: #cc7250; font-family: "Novecento Sans", "Open Sans", sans-serif; font-weight: 600; font-size: 12px; font-size: 0.75rem; text-transform: uppercase; -webkit-transition: .3s ease; transition: .3s ease; }
 .button:hover { color: #f7d0c2; border-color: #f7d0c2; }
-.button.no-gradient { border: 2px solid #2c282c; color: #2c282c; }
+.button.no-gradient { border: 2px solid #e0967b; color: #af6d55; }
 .button.no-gradient:hover { border-color: #cc7250; color: #cc7250; }
 .button.large { padding: 20px 30px; }
 
